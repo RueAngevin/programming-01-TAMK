@@ -1,4 +1,3 @@
-package e01;
 import java.util.Scanner;
 public class App {
 
@@ -10,7 +9,7 @@ public class App {
 
         String name = scanner.nextLine();
 
-        if(name == "louis") {
+        if(name.equals("louis")) {
             System.out.println("Are you French?");
         } else {
             System.out.println("You have a great name");
